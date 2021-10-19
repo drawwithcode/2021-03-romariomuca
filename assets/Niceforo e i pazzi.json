@@ -1,0 +1,16 @@
+{
+  "pazzia": [
+    {
+      "luogo": "Nord",
+      "pazzi": 89.2
+    },
+    {
+      "luogo": "Centro",
+      "pazzi": 82
+    },
+    {
+      "luogo": "Sud",
+      "pazzi": 14.9
+    }
+  ]
+}
