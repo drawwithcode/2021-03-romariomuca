@@ -13,7 +13,7 @@ function preload() {
 
 function setup() {
   //console.log(data.pazzia[1].pazzi);
-  song.loop();
+  //song.loop();
   cnv = createCanvas(img.width, img.height);
   let newCanvasX = (windowWidth - img.width) / 2;
   let newCanvasY = (windowHeight - img.height) / 2;
@@ -76,4 +76,13 @@ function draw() {
   }
   //let songRate = map(mouseY, 0, height, 2, -2);
   //mySong.rate(songRate);
+}
+
+function mousePressed() {
+  if (song.isPlaying()) {
+    // .isPlaying() returns a boolean
+    song.stop();
+  } else {
+    song.play();
+  }
 }
